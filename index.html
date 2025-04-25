@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive Webpage</h1>
+
+  <!-- Buttons for event handling -->
+  <div id="event-section">
+    <button id="textButton">Change Text</button>
+    <button id="colorButton">Change Color</button>
+    <button id="secretButton">Secret Action (Double-click)</button>
+  </div>
+
+  <!-- Dynamic Text -->
+  <p id="dynamicText">Hover over me!</p>
+
+  <!-- Image Gallery -->
+  <div id="gallery">
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+  </div>
+
+  <!-- Tabs Section -->
+  <div id="tabs">
+    <button class="tab-button" data-tab="tab1">Tab 1</button>
+    <button class="tab-button" data-tab="tab2">Tab 2</button>
+    <button class="tab-button" data-tab="tab3">Tab 3</button>
+    <div id="tab1" class="tab-content">This is Tab 1 content.</div>
+    <div id="tab2" class="tab-content">This is Tab 2 content.</div>
+    <div id="tab3" class="tab-content">This is Tab 3 content.</div>
+  </div>
+
+  <!-- Form Validation -->
+  <form id="userForm">
+    <input type="text" id="username" placeholder="Enter your name" required>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <input type="password" id="password" placeholder="Enter a password" required minlength="8">
+    <button type="submit">Submit</button>
+    <p id="feedback"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
